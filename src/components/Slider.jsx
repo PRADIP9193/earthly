@@ -1,5 +1,5 @@
 import React from "react";
-// import layerOne from "../assets/slider/parallaximg/layerOne.jpeg";
+
 
 function ProductName(props) {
   return (
@@ -68,7 +68,8 @@ const Slider = () => {
         </div>
         {/* Img section */}
         <div
-          className={`image-box w-1/2  bg-no-repeat bg-contain bg-right h-[100vh] bg-fixed shadow-c bg-layer-One`} ></div>
+          className={`image-box w-1/2  bg-no-repeat bg-contain bg-right h-full bg-fixed 
+           bg-layer-One`} ></div>
       </div>
       {/* second container */}
       <div
@@ -96,7 +97,7 @@ const Slider = () => {
         </div>
         {/* Img section */}
         <div
-          className={`image-box w-1/2 bg-no-repeat bg-contain bg-left bg-fixed h-[70vh] bg-layer-Two`}></div>
+          className={`w-1/2 bg-no-repeat bg-contain bg-left bg-fixed h-full bg-layer-Two`}></div>
       </div>
       {/* third container */}
       <div
@@ -130,7 +131,8 @@ const Slider = () => {
         </div>
         {/* Img section */}
         <div
-          className={`image-box w-1/2 bg-no-repeat bg-contain bg-right bg-fixed h-[70vh] bg-layer-Three`}></div>
+          className={`image-box w-1/2 bg-no-repeat bg-contain bg-right bg-fixed h-full
+           bg-layer-Three`}></div>
       </div>
       {/* fourth container */}
       <div
@@ -157,7 +159,7 @@ const Slider = () => {
         </div>
         {/* Img section */}
         <div
-          className={`image-box w-1/2 bg-no-repeat bg-contain bg-left bg-fixed h-[70vh] bg-layer-Four`}></div>
+          className={`image-box w-1/2 bg-no-repeat bg-contain bg-left bg-fixed h-full bg-layer-Four`}></div>
       </div>
       {/* fifth Container */}
       <div
@@ -192,7 +194,7 @@ const Slider = () => {
         </div>
         {/* Img section */}
         <div
-          className={`image-box w-1/2 bg-no-repeat bg-contain bg-right bg-fixed h-[70vh] bg-layer-Five`}></div>
+          className={`image-box w-1/2 bg-no-repeat bg-contain bg-right bg-fixed h-full bg-layer-Five`}></div>
       </div>
       {/* Sixth Container */}
       <div
@@ -226,7 +228,7 @@ const Slider = () => {
         </div>
         {/* Img section */}
         <div
-          className={`image-box w-1/2 bg-no-repeat bg-contain bg-left bg-fixed h-[70vh] bg-layer-Six`}></div>
+          className={`image-box w-1/2 bg-no-repeat bg-contain bg-left bg-fixed h-full bg-layer-Six`}></div>
       </div>
     </>
   );
