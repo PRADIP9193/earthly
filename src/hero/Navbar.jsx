@@ -4,7 +4,7 @@ import navIcon from "../assets/navIcon.svg";
 
 const Navbar = () => {
   return (
-    <div className="container z-10 fixed navbar__earthly flex rounded-[1.31rem] items-center justify-between px-4 py-4 mx-auto w-9/12 h-16 bg-[#e1e1e185] left-1/2 -translate-x-1/2 translate-y-4 backdrop-blur-[0.188rem] border border-solid border-[#e1e1e12e]  hover:animate-pulse shadow-custom">
+    <div className="container z-10 fixed navbar__earthly flex rounded-[1.31rem] items-center justify-between px-4 py-4 mx-auto w-9/12 h-16 bg-[#733a3a85] left-1/2 -translate-x-1/2 translate-y-4 backdrop-blur-[0.188rem] border border-solid border-[#e1e1e12e]  hover:animate-pulse shadow-custom">
       {/* logo */}
       <div className=" font-[itim] text-3xl pl-4 justify-center items-center text-gray-50 hover:text-[#285430] ">
         <a href="#Home">
