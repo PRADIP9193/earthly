@@ -47,8 +47,10 @@ const Carousel = () => {
         // onAutoplayTimeLeft={onAutoplayTimeLeft}
         className="mySwiper w-screen h-screen md:h-full">
         <SwiperSlide>
-          <div className="swiper-scrollbar-vertical"></div>
+          <div className="swiper-scrollbar-vertical ">
+
           <img src={imgOne} alt="imgOne" />
+          </div>
         </SwiperSlide>
         <SwiperSlide>
           <img src={imgTwo} alt="imgTwo" />

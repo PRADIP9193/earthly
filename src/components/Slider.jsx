@@ -68,7 +68,7 @@ const Slider = () => {
         {/* Img section */}
         <div
           className={`image-box w-1/2  bg-no-repeat bg-contain bg-right h-full bg-fixed 
-           bg-layer-One`} ></div>
+           bg-layer-One`}></div>
       </div>
       {/* second container */}
       <div
@@ -227,7 +227,7 @@ const Slider = () => {
         </div>
         {/* Img section */}
         <div
-          className={`image-box w-1/2 bg-no-repeat bg-contain bg-left bg-fixed h-full bg-layer-Six`}></div>
+          className={`image-box w-1/2  bg-no-repeat bg-contain bg-left bg-fixed h-full bg-layer-Six`}></div>
       </div>
     </>
   );
